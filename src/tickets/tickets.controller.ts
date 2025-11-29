@@ -6,9 +6,9 @@ import { AuthGuard } from '@nestjs/passport';
 import { User } from '../auth/decorators/user.decorator';
 import { User as UserEntity } from '../users/entities/user.entity';
 import { Query} from "@nestjs/common";
-import { Roles } from '../auth/decorators/roles.decorator';
 import { RolesGuard } from '../auth/guards/roles.guard';
 import { PaginationQueryDto } from '../common/dto/pagination-query.dto';
+//import { Roles } from '../auth/decorators/roles.decorator';
 
 
 @Controller('api/tickets')
