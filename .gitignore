@@ -1,0 +1,27 @@
+# Compiled output
+/dist
+/node_modules
+
+# Logs
+npm-debug.log
+yarn-error.log
+nest-debug.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.production
+
+# Tests
+/coverage
+
+# IDE settings (optional)
+.vscode/
+.idea/
+
+# Database files
+*.sqlite
+*.sqlite3
